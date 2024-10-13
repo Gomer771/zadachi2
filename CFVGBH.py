@@ -1,0 +1,15 @@
+input_data = open("input.txt","r")
+data=input_data.read()
+data=data.split()
+a = int(data[0])
+b = int(data[1])
+c = int(data[2])
+if c == a*b:
+    data_output= open("output.txt", "w")
+    data_output.write("YES")
+    data_output.close()
+else:
+    data_output= open("output.txt", "w")
+    data_output.write("NO")
+input_data.close()
+data_output.close()
