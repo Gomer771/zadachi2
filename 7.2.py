@@ -12,7 +12,7 @@ elif b>=c>=a or b>=a>=c:
     data_output= open("output.txt", "w")
     data_output.write("большее" ,b)
     data_output.close()
-elif c>=a>=b or c>=b>a:
+elif c>=a>=b or c>=b>=a:
     data_output= open("output.txt", "w")
     data_output.write("большее" ,c)
     data_output.close()
